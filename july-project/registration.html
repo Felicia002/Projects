@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Icons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+
+    <title>Registration</title>
+
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <div id="root">
+        <!-- header section starts -->
+        <header class="headerContainer">
+            <div class="headerContent">
+                <div>
+                    <a href="./index.html" class="logoLink">
+                        <h1 class="bigLogoText">Task management</h1>
+                    </a>
+                </div>
+
+                <div class="nav-container">
+                    <div class="hamburger">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+
+                    <div class="nav__link hide">
+                        <a href="./authorization.html">AUTHORIZATION</a>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- header section ends -->
+
+        <!-- main section starts -->
+        <main>
+            <div class="authPage-content">
+                <!-- left side -->
+                <div class="authPage-leftSide-container">
+                    <div class="authPage-leftSide-content">
+                        <h1 class="leftSide-text">Organize your work and life, finally.</h1>
+                        <h2>Become focused, organized, and calm with<br>Task management. </h2>
+                    </div>
+                </div>
+
+                <!-- right side -->
+                <div class="authPage-rightSide">
+                    <div class="rightSide-container">
+
+                        <!-- Registration Form -->
+
+                        <form action="./process-signup.php" method="post" class="form" id="signup" novalidate>
+                            <div class="form-title">Registration</div>
+                            <div class="input-field">
+                                <input type="text" placeholder="User Name" name="name" id="username">
+                                <div class="error"></div>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" placeholder="Email" name="email" id="email">
+                                <div class="error"></div>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" name="password" id="passwordId2" class="password"
+                                    placeholder="Password" autocomplete="on">
+                                <span><i class="uil-eye uil-eye-slash pwEyeIcon" id="eyeIcon2"></i></span>
+                                <div class="error"></div>
+                            </div>
+                            <div class="input-field">
+                                <input type="password" name="password_confirmation" id="passwordId3" class="password"
+                                    placeholder="Confirm Password" autocomplete="on">
+                                <span><i class="uil-eye uil-eye-slash pwEyeIcon" id="eyeIcon3"></i></span>
+                                <div class="error"></div>
+                            </div>
+
+                            <div class="checkbox-text">
+                                <div class="checkbox-content">
+                                    <input type="checkbox" id="termCon">
+                                    <label for="termCon" class="form-text">I accepted all terms and
+                                        conditions</label>
+                                </div>
+                            </div>
+
+
+                            <button class="submit-btn">SignUp</button>
+
+                        </form>
+
+                        <div class="login-signup">
+                            <span class="form-text">Already a member?
+                                <a href="./login.php" class="form-text" id="login-link">Login Now</a>
+                            </span>
+                        </div>
+                        <!-- </div> 
+                        </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- main section ends -->
+
+        <!-- footer section starts -->
+        <footer class="autgPage-footer">
+            <a href="index.html" class="logoLink">
+                <h2 class="smallLogoText">Task management</h2>
+            </a>
+            <p class="authPage-footer-text">We make the life easy</p>
+            <p class="authPage-footer-text-2">2023</p>
+        </footer>
+        <!-- footer section ends -->
+
+    </div>
+</body>
+
+</html>
