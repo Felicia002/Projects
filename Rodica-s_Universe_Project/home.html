@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rodica's Universe</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Questrial:wght@400&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css" />
+</head>
+
+<body>
+    <div class="container">
+      <a href="#navigation" class="skip-link">Skip to Navigation</a>
+      <a href="#main-content" class="skip-link">Skip to Content</a>
+      <a href="#footer" class="skip-link">Skip to Footer</a>
+        <header class="navigation">
+            <video autoplay muted loop class="video">
+                <source src="images/background.mp4" type="video/mp4" />
+              </video>
+              <div role="banner" class="banner">
+                <div class="social-icons">
+                  <a href="#" target="_blank" class="social-media" aria-label="Facebook opens in a new window">
+                    <img src="/images/facebook_icon.svg" alt="Facebook">
+                  </a>
+                  <div class="line-8"></div>
+                  <a href="#" target="_blank" class="social-media" aria-label="Instagram opens in a new window">
+                    <img src="/images/instagram_icon.svg" alt="Instagram">
+                  </a>
+                  <div class="line-8"></div>
+                  <a href="#" target="_blank" class="social-media" aria-label="Telegram opens in a new window">
+                    <img src="/images/telegram.svg" alt="Telegram">
+                  </a>
+                </div>
+                <a href="#">
+                  <h1><img class="logo" src="images/logo.png" alt="Rodica’s Universe"></h1>
+                </a>
+                <a class="item-right">
+                  <div href="#" class="aboneaza-te" tabindex="0">Abonează-te</div>
+                </a>
+              </div>
+            <nav id="navbar">
+                <div class="main-navigation">
+                  <div id="burger-menu" role="button" aria-label="menu" aria-expanded="false" >
+                    <span></span>
+                  </div>
+                    <ul class="navigation-list special" id="menu">
+                        <li><a href="#acasa" class="main_list" id="navigation"><span class="hover">Acasă</span></a></li>
+                        <li><a href="#blog" class="main_list"><span class="hover">Blog</span></a></li>
+                        <li><a href="#" class="main_list"><span class="hover">Quiz-Zone</span></a></li>
+                        <li><a href="#" class="main_list"><span class="hover">Despre mine</span></a></li>
+                        <li><a href="#" class="main_list"><spa  n class="hover">Contacte</span></a></li>
+                    </ul>
+                    <div class="search-box">
+                        <button class="btn-search" onclick="focusInput()"><i class="fa fa-search" aria-label="Search"></i></button>
+                        <input type="text" class="input-search" placeholder="Type to Search..." id="searchInput" tabindex="-1">
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main id="main-content">
+            <div class="container1">
+                <div class="carousel">
+                    <button id="prevBtn" aria-label="previous slide" class="arrow-right2"><img src="images/left_arrow.svg"/></button>
+                    <div class="carousel2 fade" style="background-image: url(images/carousel.png); background-size: cover;background-repeat: no-repeat;">
+                        <div class="c-content">
+                            <span class="c-span">Despre viață</span>
+                              <h2 class="c-title">Trăiește-ți viața pe deplin</h2>
+                              <p class="c-text">Trăiește-ți viața cu pasiune și autenticitate. Fiecare zi reprezintă o oportunitate de a descoperi, de a învăța și de a experimenta. Nu amâna fericirea pentru mai târziu.
+                              </p>
+                              <a href="#" class="c-link">
+                                Citește acest articol
+                                <img src="images/right_arrow.svg" class="arrow-right">
+                              </a>
+                        </div>
+                    </div>
+                    <div class="carousel2 fade" style="background-image: url(images/carousel1.jpg); background-size: cover;background-repeat: no-repeat;">
+                      <div class="c-content">
+                          <span class="c-span">Despre viață</span>
+                            <h2 class="c-title">Trăiește-ți viața pe deplin</h2>
+                            <p class="c-text">Trăiește-ți viața cu pasiune și autenticitate. Fiecare zi reprezintă o oportunitate de a descoperi, de a învăța și de a experimenta. Nu amâna fericirea pentru mai târziu.
+                            </p>
+                            <a href="#" class="c-link">
+                              Citește acest articol
+                              <img src="images/right_arrow.svg" class="arrow-right">
+                            </a>
+                      </div>
+                    </div>
+                    <div class="carousel2 fade" style="background-image: url(images/fram3.png); background-size: cover;background-repeat: no-repeat;">
+                      <div class="c-content">
+                          <span class="c-span">Despre viață</span>
+                            <h2 class="c-title">Trăiește-ți viața pe deplin</h2>
+                            <p class="c-text">Trăiește-ți viața cu pasiune și autenticitate. Fiecare zi reprezintă o oportunitate de a descoperi, de a învăța și de a experimenta. Nu amâna fericirea pentru mai târziu.
+                            </p>
+                            <a href="#" class="c-link">
+                              Citește acest articol
+                              <img src="images/right_arrow.svg" class="arrow-right">
+                            </a>
+                      </div>
+                    </div>
+                    <button id="nextBtn" class="arrow-right1" aria-label="next slide"><img src="images/right_arrow.svg" /></button>
+                  <div class="dot-container">
+                    <!-- Buttons will be dynamically added here -->
+                </div>
+                </div>
+            </div>
+            <div class="blog-uri">
+              <h3 class="blog-title">Blog-uri pe categorii</h3>
+              <div class="blog-wrap">
+                <div class="blog-item">
+                  <img class="blog-img" src="images/fram4.png" alt="">
+                  <span>NUTRITIE</span>
+                  <p>
+                    Explorează bogata colecție de articole din categoria nutriție. 
+                  </p>
+                  <a href="#" class="blog-link">DESCOPERA NUTRITIA
+                        <img class="arrow-right" src="images/right_arrow.svg" alt="">
+                  </a>
+                </div>
+                <div class="blog-item">
+                  <img class="blog-img" src="images/fram4.png" alt="">
+                  <span>NUTRITIE</span>
+                  <p>
+                    Explorează bogata colecție de articole din categoria nutriție.
+                  </p>
+                  <a href="#" class="blog-link">DESCOPERA NUTRITIA
+                        <img class="arrow-right" src="images/right_arrow.svg" alt="">
+                  </a>
+                </div>
+                <div class="blog-item">
+                  <img class="blog-img" src="images/fram4.png" alt="">
+                  <span>NUTRITIE</span>
+                  <p>
+                    Explorează bogata colecție de articole din categoria nutriție.
+                  </p>
+                  <a href="#" class="blog-link">DESCOPERA NUTRITIA
+                        <img class="arrow-right" src="images/right_arrow.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="wrap">
+                <hr class="hr1">
+                <div class="despre-rodica">
+                  <img src="images/me.png" alt="" class="rodica">
+                  <div class="part">
+                    <div class="inside">
+                      <span>PREZENTARE</span>
+                      <h2>Hey! Eu sunt Rodica.</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur. Ac purus sed habitant amet
+                        pellentesque gravida urna. Eget eget a orci dignissim enim enim amet.
+                        Turpis cursus faucibus dui ut sodales dui. Risus bibendum sagittis
+                        amet nisl ornare neque pharetra. Phasellus nibh eu sollicitudin
+                        tristique. Ultrices ultricies egestas amet magna morbi auctor
+                        faucibus amet.
+                      </p>
+                      <a href="#" class="link1">AFLĂ MAI MULTE DESPRE MINE
+                        <img class="arrow-right" src="images/right_arrow.svg" alt="">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="line-12"></div>
+                  <div class="part1">
+                    <span>Link-uri rapide :</span>
+                    <ul class="links">
+                      <li><a href="#" class="underline">Nutriție și recete</a></li>
+                      <li><a href="#" class="underline">Psihologie și gândire</a></li>
+                      <li><a href="#" class="underline">Banii și libertatea</a></li>
+                      <li><a href="#" class="underline">O familie sănătoasă</a></li>
+                      <li><a href="#" class="underline">Iubire nemărginită</a></li>
+                    </ul>
+                    <div class="social-icons">
+                      <a href="#" target="_blank" class="social-media" aria-label="Facebook opens in a new window">
+                        <img src="/images/facebook_icon.svg" alt="Facebook">
+                      </a>
+                      <a href="#" target="_blank" class="social-media" aria-label="Instagram opens in a new window">
+                        <img src="/images/instagram_icon.svg" alt="Instagram">
+                      </a>
+                      <a href="#" target="_blank" class="social-media" aria-label="Telegram opens in a new window">
+                        <img src="/images/telegram.svg" alt="Telegram">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <hr class="hr2">
+              </div>
+            <div class="container11">
+                <h3 class="blog-title">Blog-urile săptămânei</h3>
+                <div class="content11">
+                  <div class="section1">
+                    <img class="photo" src="images/fram3.png"/>
+                    <div class="text01">o viață fericită<img class="svg1" src="images/fram5.svg" /></div>
+                    <div class="text02">În căutarea unei vieți fericite</div>
+                    <div class="text03">Fericirea este una dintre cele mai prețioase căutări ale noastre. O viață fericită nu este doar un vis, ci o destinație pe care o putem atinge prin alegeri înțelepte, relații sănătoase și cultivarea momentelor de bucurie. Este o călătorie unică pentru fieca...</div>
+                    <div class="text04">
+                        <span class="date">11 Dec, 2023</span>
+                        <a href="#" class="link1">Citește ...<img class="arrow-right" src="images/right_arrow.svg" alt=""></a>
+                    </div>
+                  </div>
+                  <div class="section2">
+                    <div class="info1">
+                      <img class="photo1" src="images/fram3.png"/>
+                      <div class="text011">relațile de bine</div>
+                      <div class="text012">Un drum către fericire</div>
+                      <div class="text013">Relațiile noastre cu ceilalți sunt un aspect esențial al vieții noastre și pot aduce o mare fericire și împlinire în viața noastră. În acest articol, explorăm secretele de a construi și mențin...</div>
+                      <div class="text04">
+                        <span class="date">11 Dec, 2023</span>
+                        <a href="#" class="link1">Citește ...<img class="arrow-right" src="images/right_arrow.svg" alt=""></a>
+                      </div>
+                    </div>
+                    <div class="info2">
+                      <div class="ainfo">
+                        <img class="aphoto" src="images/fram3.png"/>
+                        <div class="text011">relațile de bine</div>
+                        <div class="text012">Un drum către fericire</div>
+                        <div class="text013">Relațiile noastre cu ceilalți sunt un aspec...</div>
+                        <div class="text04">
+                          <span class="date">11 Dec, 2023</span>
+                          <a href="#" class="link1">Citește ...<img class="arrow-right" src="images/right_arrow.svg" alt=""></a>
+                        </div>
+                      </div>
+                      <div class="ainfo">
+                        <img class="aphoto" src="images/fram3.png"/>
+                        <div class="text011">relațile de bine</div>
+                        <div class="text012">Un drum către fericire</div>
+                        <div class="text013">Relațiile noastre cu ceilalți sunt un aspec...</div>
+                        <div class="text04">
+                          <span class="date">11 Dec, 2023</span>
+                          <a href="#" class="link1">Citește ...<img class="arrow-right" src="images/right_arrow.svg" alt=""></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="align-center">
+            <h2 class="instagram-title">#Instagram posts</h2>
+            <div class="instagram_post">
+                <a href="#instagram" class="content" target="_blank">
+                    <img src="images/new-icon.svg" alt="" class="new-icon">
+                    <img src="images/frame1.png" alt="" class="image">
+                    <div class="overlay">Vezi aceasta postare pe <br><img class="frame11" src="images/instagram_icon.svg"> Instagram</div>
+                </a>
+                  <a href="#instagram" class="content" target="_blank">
+                    <img src="images/new-icon.svg" alt="" class="new-icon">
+                    <img src="images/image2.png" alt="" class="image">
+                    <div class="overlay">Vezi aceasta postare pe <br><img class="frame11" src="images/instagram_icon.svg"> Instagram</div>
+                  </a>
+                  <a href="#instagram" class="content" target="_blank">
+                    <img src="images/new-icon.svg" alt="" class="new-icon">
+                    <img src="images/image13.png" alt="" class="image">
+                    <div class="overlay">Vezi aceasta postare pe <br><img class="frame11" src="images/instagram_icon.svg"> Instagram</div>
+                  </a>
+            </div>
+            </div>
+        </main>
+        <footer class="footer" id="footer">
+            <div class="line-1"></div>
+                <img class="logo" src="images/logo.png" alt="Logo">
+            <div class="footer-items">
+                    <ul class="navigation-list">
+                        <li><a href="#" class="main_list"><span class="hover">Acasă</span></a></li>
+                        <li><a href="#" class="main_list"><span class="hover">Blog</span></a></li>
+                        <li><a href="#" class="main_list"><span class="hover">Quiz-Zone</span></a></li>
+                        <li><a href="#" class="main_list"><span class="hover">Despre mine</span></a></li>
+                        <li><a href="#" class="main_list"><span class="hover">Contacte</span></a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#" target="_blank" class="social-media" aria-label="Facebook opens in a new window">
+                          <img src="/images/facebook_icon.svg" alt="Facebook">
+                        </a>
+                        <div class="line-8"></div>
+                        <a href="#" target="_blank" class="social-media" aria-label="Instagram opens in a new window">
+                          <img src="/images/instagram_icon.svg" alt="Instagram">
+                        </a>
+                        <div class="line-8"></div>
+                        <a href="#" target="_blank" class="social-media" aria-label="Telegram opens in a new window">
+                          <img src="/images/telegram.svg" alt="Telegram">
+                        </a>
+                      </div>
+            </div>
+            <div class="line-1"></div>
+                <p class="rodica-copyrighted">
+                    Rodica’s Universe Copyrighted © 2024
+                </p>
+        </footer>
+    </div>
+    <script src="home.js"></script>
+</body>
+
+</html>
